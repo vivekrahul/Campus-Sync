@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Sedgwick+Ave+Display&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.outerbox{
+    width: 100vw;
+    height: 100vh;
+    background :linear-gradient(to top left,#a2d2ff, #cdb4db);
+
+}
+
+.innerbox{
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 20px 40px;
+    background: linear-gradient(to bottom right ,#bde0fe,#ffc8dd);
+    border-radius: 6px;
+    box-shadow: 2px 2px 5px #9b5de5;
+    z-index: 2;
+}
+
+.signup-header h1{
+    font-size: 2.5rem;
+    color: #ef476f;
+}
+
+.signup-body{
+    
+    margin: 20px 0;
+    
+    
+}
+
+.signup-body p{
+    margin: 10px 0;
+}
+
+.signup-body p label{
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+
+    
+
+}
+
+.signup-body p input{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #606c38;
+    border-radius: 4px;
+    margin-top: 4px;
+}
+
+.signup-body p select{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #606c38;
+    border-radius: 4px;
+    margin-top: 4px;
+}
+
+.signup-body p input[type="submit"]{
+    background: linear-gradient(to top left ,#457b9d,#f1faee );
+    border: none;
+    color:#e63946 ;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.25em;
+    cursor: pointer;
+    
+
+}
+
+.signup-body p input[type="submit"]:hover{
+    background: linear-gradient(to top left ,#3f8ebf,#b9dbae );
+    
+}
+
+.signup-footer{
+    color: #3a86ff;
+    text-align: center;
+}
+
+.circle{
+    width:200px ;
+    height: 200px;
+    border-radius: 100px;
+    background:linear-gradient(to top right, #ffc8dd,#bde0fe);
+    position: absolute;
+}
+
+.c1{
+    top:100px;
+    left:40px;
+}
+
+.c2{
+    bottom: 100px;
+    right:40px
+}
